@@ -16,7 +16,7 @@ This repository may have multiple project versions. Please select the one you in
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies with `npm install` or `yarn install`.
-3. Obtain an API key from the [Open Weather API](https://openweathermap.org/api) and replace `YOUR_API_KEY` in the code with your actual key.
+3. Obtain an API key from the [Open Weather API](https://openweathermap.org/api) and replace `WEATHER_API_KEY` in the code with your actual key. (EG: /patrion-weather-v14/.env)
 4. Run the development server with `npm run dev` or `yarn dev`.
 5. Open your web browser and navigate to `http://localhost:3000`.
 
