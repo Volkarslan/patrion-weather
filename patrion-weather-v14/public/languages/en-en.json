@@ -4,7 +4,7 @@
         "linkedin": "https://www.linkedin.com/in/volkan-ugur-arslan/"
     },
     "emoji": {
-        "heart": "♥️"
+        "heart": " ♥️ "
     },
     "navigation": {
         "application": "Application",
@@ -19,6 +19,10 @@
         "title": "Page not found",
         "description": "Sorry, we couldn’t find the page you’re looking for.",
         "back": "Back to home"
+    },
+    "application": {
+        "title": "Arslan Weather Service",
+        "description": "Just type down your city name to see the weather details."
     },
     "openweather": {
         "banner": "Weather forecasts",

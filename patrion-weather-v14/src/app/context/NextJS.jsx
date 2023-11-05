@@ -1,6 +1,6 @@
 import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon, } from '@heroicons/react/20/solid'
-
 import localization from "../../../public/languages/en-en.json"
+import Image from "next/image"
 
 const features = [
     {
@@ -20,7 +20,7 @@ const features = [
     }
 ]
 
-export default function Example() {
+export default function NextJS() {
     return (
         <div className="bg-white py-24 sm:py-32" id="nextjs">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -34,8 +34,8 @@ export default function Example() {
             </div>
             <div className="relative overflow-hidden pt-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <img
-                        src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                    <Image
+                        src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="App screenshot"
                         className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
                         width={2432}

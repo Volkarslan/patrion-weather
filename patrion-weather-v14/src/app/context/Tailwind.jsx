@@ -1,5 +1,6 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 import localization from "../../../public/languages/en-en.json"
+import Image from "next/image"
 
 const features = [
     {
@@ -19,18 +20,17 @@ const features = [
     },
 ]
 
-export default function Example() {
+export default function Tailwind() {
     return (
         <div className="overflow-hidden bg-white py-24 sm:py-32" id="tailwind">
             <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
                     <div className="px-6 lg:px-0 lg:pr-4 lg:pt-4">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
-                            <h2 className="text-base font-semibold leading-7 text-rose-600">Deploy faster</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
+                            <h2 className="text-base font-semibold leading-7 text-rose-600">{localization.tailwind.banner}</h2>
+                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{localization.tailwind.title}</p>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                                iste dolor cupiditate blanditiis ratione.
+                                {localization.tailwind.description}
                             </p>
                             <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                                 {features.map((feature) => (
@@ -52,8 +52,8 @@ export default function Example() {
                                 aria-hidden="true"
                             />
                             <div className="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
-                                <img
-                                    src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                                <Image
+                                    src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                     alt="Product screenshot"
                                     width={2432}
                                     height={1442}

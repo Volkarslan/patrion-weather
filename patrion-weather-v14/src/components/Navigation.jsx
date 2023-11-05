@@ -3,6 +3,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import appLogo from "../../public/assets/Arslan-Weather-App-Logo.png"
 import localization from "../../public/languages/en-en"
 import Link from "next/link"
+import Image from "next/image"
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -17,10 +18,12 @@ export default function Navigation() {
                         <div className="flex h-16 justify-between">
                             <div className="flex">
                                 <div className="flex flex-shrink-0 items-center">
-                                    <img
+                                    <Image
+                                        width={64}
+                                        height={64}
                                         className="h-8 w-auto"
                                         src={appLogo.src}
-                                        alt="Your Company"
+                                        alt="Arslan Weather Services"
                                     />
                                 </div>
                                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
