@@ -3,6 +3,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import localization from "../../public/languages/en-en";
+import Image from "next/image";
 
 export default function NotFound() {
     return (
@@ -11,7 +12,8 @@ export default function NotFound() {
                 <body class="h-full">
                     <Navigation />
                     <main className="relative isolate min-h-screen">
-                        <img
+                        <Image
+                            layout="fill"
                             src="https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
                             className="absolute inset-0 -z-10 h-full w-full object-cover object-top"
