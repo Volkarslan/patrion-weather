@@ -24,7 +24,8 @@
     },
     "application": {
         "title": "Arslan Weather Service",
-        "description": "Just type down your city name to see the weather details."
+        "description_search": "Just type down your city name to see the weather details.",
+        "description_select": "Just choose your city name to see the weather details."
     },
     "search": {
         "label": "location",

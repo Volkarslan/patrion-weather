@@ -6,10 +6,6 @@ import localization from "../../public/languages/en-en"
 import Link from "next/link"
 import Image from "next/image"
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
 export default function Navigation() {
     return (
         <Disclosure as="nav" className="bg-white shadow sticky top-0 z-10	">
@@ -29,7 +25,7 @@ export default function Navigation() {
                                 </div>
                                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                                     <Link
-                                        href="#application"
+                                        href="#application-desktop"
                                         className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                                     >
                                         {localization.navigation.application}
@@ -73,7 +69,7 @@ export default function Navigation() {
                         <div className="space-y-1 pb-3 pt-2">
                             <Disclosure.Button
                                 as="a"
-                                href="#application"
+                                href="#application-mobile"
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
                                 {localization.navigation.application}
