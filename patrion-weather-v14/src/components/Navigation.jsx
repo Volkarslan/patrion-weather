@@ -1,3 +1,4 @@
+import React from "react"
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import appLogo from "../../public/assets/Arslan-Weather-App-Logo.png"
@@ -27,10 +28,9 @@ export default function Navigation() {
                                     />
                                 </div>
                                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                                    {/* Current: "border-cyan-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                                     <Link
                                         href="#application"
-                                        className="inline-flex items-center border-b-2 border-cyan-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                                        className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
                                     >
                                         {localization.navigation.application}
                                     </Link>
@@ -71,31 +71,30 @@ export default function Navigation() {
 
                     <Disclosure.Panel className="sm:hidden">
                         <div className="space-y-1 pb-3 pt-2">
-                            {/* Current: "bg-cyan-50 border-cyan-500 text-cyan-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
                             <Disclosure.Button
                                 as="a"
-                                href="#"
-                                className="block border-l-4 border-cyan-500 bg-cyan-50 py-2 pl-3 pr-4 text-base font-medium text-cyan-700"
+                                href="#application"
+                                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
                                 {localization.navigation.application}
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="#openweather"
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
                                 {localization.navigation.weather}
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="#nextjs"
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
                                 {localization.navigation.nextjs}
                             </Disclosure.Button>
                             <Disclosure.Button
                                 as="a"
-                                href="#"
+                                href="#tailwind"
                                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
                             >
                                 {localization.navigation.tailwind}

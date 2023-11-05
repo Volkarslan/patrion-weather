@@ -3,8 +3,10 @@
         "github": "https://github.com/volkarslan",
         "linkedin": "https://www.linkedin.com/in/volkan-ugur-arslan/"
     },
-    "emoji": {
-        "heart": " ♥️ "
+    "unit": {
+        "heart": " ♥️ ",
+        "celsius": " ℃ ",
+        "speed": " m/s "
     },
     "navigation": {
         "application": "Application",
@@ -23,6 +25,19 @@
     "application": {
         "title": "Arslan Weather Service",
         "description": "Just type down your city name to see the weather details."
+    },
+    "search": {
+        "label": "location",
+        "placeholder": "İzmir",
+        "action": "Search",
+        "clear": "X"
+    },
+    "result": {
+        "province": "Weather Results For ",
+        "tempature": "Tempature: ",
+        "wind": "Wind Speed: ",
+        "sunrise": "Sunrise: ",
+        "sunset": "Sunset: "
     },
     "openweather": {
         "banner": "Weather forecasts",

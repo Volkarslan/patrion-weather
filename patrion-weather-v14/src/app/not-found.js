@@ -8,8 +8,8 @@ import Image from "next/image";
 export default function NotFound() {
     return (
         <>
-            <html class="h-full">
-                <body class="h-full">
+            <html className="h-full">
+                <body className="h-full">
                     <Navigation />
                     <main className="relative isolate min-h-screen">
                         <Image
