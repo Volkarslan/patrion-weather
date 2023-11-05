@@ -1,0 +1,58 @@
+{
+    "link": {
+        "github": "https://github.com/volkarslan",
+        "linkedin": "https://www.linkedin.com/in/volkan-ugur-arslan/"
+    },
+    "emoji": {
+        "heart": "♥️"
+    },
+    "navigation": {
+        "application": "Application",
+        "weather": "OpenWeather",
+        "nextjs": "NextJS",
+        "tailwind": "Tailwind"
+    },
+    "footer": {
+        "copy": "Volkan Arslan | Made in Izmir, with"
+    },
+    "missing": {
+        "title": "Page not found",
+        "description": "Sorry, we couldn’t find the page you’re looking for.",
+        "back": "Back to home"
+    },
+    "openweather": {
+        "banner": "Weather forecasts",
+        "title": "OpenWeather global services",
+        "description": "Weather forecasts, nowcasts and history in fast and elegant way",
+        "title_first": "We make hyper-local weather data open for any business",
+        "description_first": "For each point on the globe, we provide historical, current and forecasted weather data via light-speed APIs.",
+        "title_second": "From small companies to Top 100 Fortune",
+        "description_second": "4,000,000 API | 2,500 new users every day | 2 billion requests a day",
+        "title_third": "Customers",
+        "description_third": "Customers from different industries benefit from our weather data",
+        "title_fourth": "Why OpenWeather ",
+        "description_fourth": "OpenWeather is a team of IT experts and data scientists that has been practicing deep weather data science since 2014. "
+    },
+    "nextjs": {
+        "banner": "Building Blocks of a Web Application",
+        "title": "What is Next.js?",
+        "description": "Next.js is a flexible React framework that gives you building blocks to create fast web applications.",
+        "title_first": "User Interface",
+        "description_first": "how users will consume and interact with your application.",
+        "title_second": "Data Fetching",
+        "description_second": "where your data lives and how to get it.",
+        "title_third": "Infrastructure ",
+        "description_third": "where you deploy, store, and run your application code (Serverless, CDN, Edge, etc)."
+    },
+    "tailwind": {
+        "banner": "Rapidly build modern websites without ever leaving your HTML.",
+        "title": "Tailwind CSS",
+        "description": "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables.",
+        "title_first": "An API for your design system.",
+        "description_first": "Utility classes help you work within the constraints of a system instead of littering your stylesheets with arbitrary values. They make it easy to be consistent with color choices, spacing, typography, shadows, and everything else that makes up a well-engineered design system.",
+        "title_second": "Build whatever you want, seriously.",
+        "description_second": "Because Tailwind is so low-level, it never encourages you to design the same site twice. Even with the same color palette and sizing scale, it's easy to build the same component with a completely different look in the next project.",
+        "title_third": "Easy To Maintain",
+        "description_third": "Because Tailwind is so low-level, it never encourages you to design the same site twice. Even with the same color palette and sizing scale, it's easy to build the same component with a completely different look in the next project."
+    }
+}
